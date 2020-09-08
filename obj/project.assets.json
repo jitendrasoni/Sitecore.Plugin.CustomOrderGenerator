@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "Sitecore.Commerce.Core >= 5.0.*",
+      "Sitecore.Commerce.Plugin.Catalog >= 5.0.43",
+      "Sitecore.Commerce.Plugin.Orders >= 5.0.20"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jitus\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
+      "projectName": "Sitecore.Plugin.CustomOrderGenerator",
+      "projectPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
+      "packagesPath": "C:\\Users\\jitus\\.nuget\\packages\\",
+      "outputPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jitus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "noWarn": [
+          "NU1605"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "Sitecore.Commerce.Core": {
+            "target": "Package",
+            "version": "[5.0.*, )"
+          },
+          "Sitecore.Commerce.Plugin.Catalog": {
+            "target": "Package",
+            "version": "[5.0.43, )"
+          },
+          "Sitecore.Commerce.Plugin.Orders": {
+            "target": "Package",
+            "version": "[5.0.20, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Orders. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Orders",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Core. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1"
+      ]
+    }
+  ]
+}

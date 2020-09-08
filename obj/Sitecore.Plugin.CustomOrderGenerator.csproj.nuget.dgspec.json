@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj": {}
+  },
+  "projects": {
+    "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
+        "projectName": "Sitecore.Plugin.CustomOrderGenerator",
+        "projectPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
+        "packagesPath": "C:\\Users\\jitus\\.nuget\\packages\\",
+        "outputPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jitus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1605"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "Sitecore.Commerce.Core": {
+              "target": "Package",
+              "version": "[5.0.*, )"
+            },
+            "Sitecore.Commerce.Plugin.Catalog": {
+              "target": "Package",
+              "version": "[5.0.43, )"
+            },
+            "Sitecore.Commerce.Plugin.Orders": {
+              "target": "Package",
+              "version": "[5.0.20, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
