@@ -8,15 +8,6 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
       "message": "Unable to find package Sitecore.Commerce.Plugin.Orders. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
       "libraryId": "Sitecore.Commerce.Plugin.Orders",
       "targetGraphs": [
@@ -28,6 +19,15 @@
       "level": "Error",
       "message": "Unable to find package Sitecore.Commerce.Core. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
       "libraryId": "Sitecore.Commerce.Core",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.1"
       ]

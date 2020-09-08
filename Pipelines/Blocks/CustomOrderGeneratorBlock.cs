@@ -41,7 +41,7 @@ namespace Sitecore.Commerce.Plugin.Sample
             if (orders.Any())
             {
                 OrderGeneratorPolicy policy = context.GetPolicy<OrderGeneratorPolicy>();
-                string nextOrderNumber;
+                string nextOrderNumber = string.Empty;
                 if (policy.IsRandomNumber)
                 {
                     nextOrderNumber = GenerateNumber(policy.TotalDigitMin, policy.TotalDigitMax);
