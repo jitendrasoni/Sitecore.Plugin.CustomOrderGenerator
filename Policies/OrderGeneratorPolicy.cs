@@ -3,7 +3,7 @@
 using Sitecore.Commerce.Core;
 using System.Threading.Tasks;
 
-namespace Sitecore.Commerce.Plugin.Sample
+namespace Plugin.CustomOrderGenerator
 {
     /// <inheritdoc />
     /// <summary>

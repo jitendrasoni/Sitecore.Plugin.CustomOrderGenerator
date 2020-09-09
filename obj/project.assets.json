@@ -17,9 +17,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
-      "projectName": "Sitecore.Plugin.CustomOrderGenerator",
-      "projectPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
+      "projectUniqueName": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj",
+      "projectName": "Plugin.CustomOrderGenerator",
+      "projectPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj",
       "packagesPath": "C:\\Users\\jitus\\.nuget\\packages\\",
       "outputPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\obj\\",
       "projectStyle": "PackageReference",
@@ -73,8 +73,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Orders. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Orders",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.1"
       ]
@@ -82,8 +82,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Sitecore.Commerce.Plugin.Orders. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Sitecore.Commerce.Plugin.Orders",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.1"
       ]

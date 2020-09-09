@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HncyMtIvurBQZEF3Ge6G6L3NrfRQB5FIsMZtr/CkT11NS9y6Ixx7qQU8ogOEGhx+U7ApAtRV2tnVDJ4g5cEZAg==",
+  "dgSpecHash": "InQjLs7wDUzu5kTb3k7Zy0qQO3n7QTGvMZB6nk2ZIPffSbO5vH/LgFMCA3qqek/1JtkRwnW7/m2grH+mQn4wJA==",
   "success": false,
-  "projectFilePath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
+  "projectFilePath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
@@ -17,8 +17,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Sitecore.Commerce.Core. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Sitecore.Commerce.Core",
+      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.1"
       ]
@@ -26,8 +26,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Sitecore.Commerce.Plugin.Catalog. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Sitecore.Commerce.Plugin.Catalog",
+      "message": "Unable to find package Sitecore.Commerce.Core. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Sitecore.Commerce.Core",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.1"
       ]

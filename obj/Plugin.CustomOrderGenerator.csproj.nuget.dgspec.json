@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DDecor\\003\\src\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj": {}
+    "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj": {}
   },
   "projects": {
-    "C:\\DDecor\\003\\src\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj": {
+    "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DDecor\\003\\src\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
-        "projectName": "Sitecore.Plugin.CustomOrderGenerator",
-        "projectPath": "C:\\DDecor\\003\\src\\Sitecore.Plugin.CustomOrderGenerator\\Sitecore.Plugin.CustomOrderGenerator.csproj",
-        "packagesPath": "C:\\DDecor\\003\\packages",
-        "outputPath": "C:\\DDecor\\003\\src\\Sitecore.Plugin.CustomOrderGenerator\\obj\\",
+        "projectUniqueName": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj",
+        "projectName": "Plugin.CustomOrderGenerator",
+        "projectPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\Plugin.CustomOrderGenerator.csproj",
+        "packagesPath": "C:\\Users\\jitus\\.nuget\\packages\\",
+        "outputPath": "C:\\myprojects\\Sitecore\\Sitecore.Plugin.CustomOrderGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\DDecor\\003\\NuGet.Config",
           "C:\\Users\\jitus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -22,9 +21,8 @@
           "net471"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://sitecore.myget.org/F/sc-commerce-packages/api/v3/index.json": {},
-          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net471": {

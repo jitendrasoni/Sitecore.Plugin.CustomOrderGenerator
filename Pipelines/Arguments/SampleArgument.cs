@@ -3,7 +3,7 @@
 using Sitecore.Commerce.Core;
 using Sitecore.Framework.Conditions;
 
-namespace Sitecore.Commerce.Plugin.Sample
+namespace Plugin.CustomOrderGenerator
 {
     /// <inheritdoc />
     /// <summary>

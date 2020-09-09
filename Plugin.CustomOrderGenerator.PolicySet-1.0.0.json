@@ -1,0 +1,21 @@
+﻿{
+  "$type": "Sitecore.Commerce.Core.PolicySet, Sitecore.Commerce.Core",
+  "Id": "Entity-PolicySet-CustomOrderGenerator",
+  "Version": 1,
+  "IsPersisted": false,
+  "Name": "CustomOrderGenerator",
+  "Policies": {
+    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Policy, Sitecore.Commerce.Core]], mscorlib",
+    "$values": [
+      {
+        "$type": "Plugin.CustomOrderGenerator.OrderGeneratorPolicy,Plugin.CustomOrderGenerator",
+        "Environment": "sandbox",
+        "Prefix": "DN",
+        "IsRandomNumber": true,
+        "TotalDigitMin": 9999999,
+        "TotalDigitMax": 1000000
+      }
+    ]
+  }
+}
+

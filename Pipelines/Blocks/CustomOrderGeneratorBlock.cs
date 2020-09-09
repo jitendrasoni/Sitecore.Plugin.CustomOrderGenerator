@@ -10,10 +10,10 @@ using Sitecore.Commerce.Plugin.Orders;
 using Sitecore.Framework.Conditions;
 using Sitecore.Framework.Pipelines;
 
-namespace Sitecore.Commerce.Plugin.Sample
+namespace Plugin.CustomOrderGenerator
 {
 
-    [PipelineDisplayName("Sitecore.Commerce.Plugin.Sample.CustomOrderGeneratorBlock")]
+    [PipelineDisplayName("Sitecore.Plugin.CustomOrderGenerator.CustomOrderGeneratorBlock")]
     public class CustomOrderGeneratorBlock : PipelineBlock<Order, Order, CommercePipelineExecutionContext>
     {
 
@@ -41,7 +41,7 @@ namespace Sitecore.Commerce.Plugin.Sample
             if (orders.Any())
             {
                 OrderGeneratorPolicy policy = context.GetPolicy<OrderGeneratorPolicy>();
-                string nextOrderNumber = string.Empty;
+                string nextOrderNumber;
                 if (policy.IsRandomNumber)
                 {
                     nextOrderNumber = GenerateNumber(policy.TotalDigitMin, policy.TotalDigitMax);

@@ -7,7 +7,7 @@ using Sitecore.Commerce.Plugin.Orders;
 using Sitecore.Framework.Configuration;
 using Sitecore.Framework.Pipelines.Definitions.Extensions;
 
-namespace Sitecore.Commerce.Plugin.Sample
+namespace Plugin.CustomOrderGenerator
 {
     /// <summary>
     /// The configure sitecore class.
